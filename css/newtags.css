@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+
+#container{
+    position: relative;
+    margin-bottom: 200px;
+}
+
+.clear{
+    clear: both;
+}
+
+header{
+    width: 100%;
+    color: red;
+    border: 5px solid red;
+    height: 100px;
+    text-align: center;
+    box-sizing: border-box;
+}
+header h1{
+    margin: 0;
+    line-height: 100px;
+}
+
+nav{
+    border: solid green 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+nav ul{
+    text-align: center;
+    padding: 10px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
+
+article{
+    text-align: center;
+    border: 5px orange solid;
+    padding: 10px;
+    color: orange;
+    box-sizing: border-box;
+    float: left;
+    width: 79%;
+    margin-left: 0.5%;
+}
+
+section{
+    border: 2px solid yellow;
+    color: yellow;
+    margin: 5px;
+    padding: 10px;
+}
+
+section span{
+    color: orangered;
+    border: 1px solid orangered;
+}
+
+aside{
+    border: 5px solid white;
+    color: white;
+    box-sizing: border-box;
+    width: 19%;
+    float: right;
+    margin-right: 0.5%;
+    padding: 10px;
+}
+
+form{
+    width: 98%;
+    border: 5px solid violet;
+    color: violet;
+    margin: 10px auto;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 2em;
+}
+form input{
+    background-color: black;
+    border: 1px solid violet;
+    color: violet;
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+    color: blue;
+    border: blue solid 5px;
+    text-align: center;
+    line-height: 200px;
+    font-weight: bold;
+    font-size: 2em;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
